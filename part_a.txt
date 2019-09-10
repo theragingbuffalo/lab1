@@ -1,0 +1,13 @@
+mcs@mcs-ThinkPad-T440s:~/lab1$ schedtool -a 0 -e time ./threads 1
+5.00user 0.00system 0:05.00elapsed 99%CPU (0avgtext+0avgdata 3176maxresident)k
+0inputs+0outputs (0major+130minor)pagefaults 0swaps
+mcs@mcs-ThinkPad-T440s:~/lab1$ schedtool -a 0 -e time ./threads 2
+5.01user 0.00system 0:05.01elapsed 99%CPU (0avgtext+0avgdata 3144maxresident)k
+0inputs+0outputs (0major+130minor)pagefaults 0swaps
+mcs@mcs-ThinkPad-T440s:~/lab1$ schedtool -a 0 -e time ./threads 3
+5.02user 0.00system 0:05.02elapsed 99%CPU (0avgtext+0avgdata 3140maxresident)k
+0inputs+0outputs (0major+131minor)pagefaults 0swaps
+mcs@mcs-ThinkPad-T440s:~/lab1$ schedtool -a 0 -e time ./threads 4
+5.03user 0.00system 0:05.03elapsed 99%CPU (0avgtext+0avgdata 3196maxresident)k
+0inputs+0outputs (0major+134minor)pagefaults 0swaps
+

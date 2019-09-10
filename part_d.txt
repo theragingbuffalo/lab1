@@ -1,0 +1,12 @@
+mcs@mcs-ThinkPad-T440s:~/lab1$ sudo schedtool -a 0,1 -F -p 50 -e time ./threads 1
+5.00user 0.00system 0:05.00elapsed 99%CPU (0avgtext+0avgdata 3080maxresident)k
+0inputs+0outputs (0major+127minor)pagefaults 0swaps
+mcs@mcs-ThinkPad-T440s:~/lab1$ sudo schedtool -a 0,1 -F -p 50 -e time ./threads 2
+9.99user 0.00system 0:05.00elapsed 199%CPU (0avgtext+0avgdata 3160maxresident)k
+0inputs+0outputs (0major+130minor)pagefaults 0swaps
+mcs@mcs-ThinkPad-T440s:~/lab1$ sudo schedtool -a 0,1 -F -p 50 -e time ./threads 3
+15.00user 0.00system 0:10.00elapsed 149%CPU (0avgtext+0avgdata 3168maxresident)k
+0inputs+0outputs (0major+130minor)pagefaults 0swaps
+mcs@mcs-ThinkPad-T440s:~/lab1$ sudo schedtool -a 0,1 -F -p 50 -e time ./threads 4
+19.99user 0.00system 0:10.00elapsed 199%CPU (0avgtext+0avgdata 3216maxresident)k
+0inputs+0outputs (0major+137minor)pagefaults 0swaps
